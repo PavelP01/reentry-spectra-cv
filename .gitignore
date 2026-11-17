@@ -1,0 +1,18 @@
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+
+# Keep only tiny sample data in Git
+data/*
+!data/sample/
+artifacts/
+*.fits
+!data/sample/*.fits
+*.parquet
+*.pkl
+*.joblib
+
+.DS_Store
+.vscode/
+.cursor/mcp.json

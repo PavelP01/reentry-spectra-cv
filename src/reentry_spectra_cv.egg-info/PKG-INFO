@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: reentry-spectra-cv
+Version: 0.1.0
+Summary: Classical CV & Spectroscopy pipeline for distinguishing space debris reentry from natural meteors
+Requires-Python: >=3.10
+Requires-Dist: numpy>=1.26.0
+Requires-Dist: scipy>=1.11.0
+Requires-Dist: opencv-python-headless>=4.9.0
+Requires-Dist: scikit-image>=0.22.0
+Requires-Dist: scikit-learn>=1.4.0
+Requires-Dist: astropy>=6.0.0
+Requires-Dist: pandas>=2.1.0
+Requires-Dist: matplotlib>=3.8.0
+Provides-Extra: dev
+Requires-Dist: pytest>=8.0.0; extra == "dev"
